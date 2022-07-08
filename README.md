@@ -1,10 +1,10 @@
 # Lxxx
 
-> note
+> 记录所有
 
-## 常用软件安装
+## 常用软件命令方式安装
 
-### node.js
+1. node.js
 
 ```shell
 wget https://npmmirror.com/mirrors/node/v16.15.1/node-v16.15.1-linux-x64.tar.xz
@@ -15,7 +15,7 @@ ln -s /usr/software/nodejs/bin/npm   /usr/local/bin/
 ln -s /usr/software/nodejs/bin/node   /usr/local/bin/
 ```
 
-### mysql8
+2. mysql8
 
 ```shell
 yum list installed | grep mysql
@@ -50,5 +50,36 @@ mysql -u root -p
 use mysql
 update user set host="%" where user="root";
 flush privileges;
+```
+
+## 常用软件Docker安装
+
+1. Docker
+
+```shell
+curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+systemctl start docker
+```
+
+2. MySQL
+
+```shell
+docker run --name mysql -v /opt/mysql_data:/var/lib/mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 -d mysql:5.7
+```
+
+3. Redis
+
+```shell
+docker run --name redis -p 6379:6379 -d redis:7.0.1
+```
+
+4. MongoDB
+
+```shell
+docker run -d --name mongod \
+	-e MONGO_INITDB_ROOT_USERNAME=lixuan \
+    -e MONGO_INITDB_ROOT_PASSWORD=123456 \
+    -p 27017:27017 \
+    mongo:4.2 --auth 
 ```
 

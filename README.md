@@ -83,4 +83,3 @@ docker run -d --name mongod \
     mongo:4.2 --auth 
 ```
 
-## 测试自动拉取git

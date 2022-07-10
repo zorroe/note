@@ -10,11 +10,11 @@ Go源码包下载地址：https://golang.google.cn/dl/
 
 对于win平台，下载之后，双击，一路next即可
 
-```shell
+```bash
 go version
 ```
 
-配置GOPATH
+配置**GOPATH**
 
 ![image-20220710110504118](https://cdn.jsdelivr.net/gh/zorroe/img-host@main/img/2022-07-10-16-00-20-73a45812bbff41079e5886b9aaba983a-2022-07-10-11-05-04-73a45812bbff41079e5886b9aaba983a-image-20220710110504118-f5f5af-96e9f6.png)
 

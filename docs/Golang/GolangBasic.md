@@ -18,7 +18,7 @@ go version
 
 配置GOPATH
 
-![image-20220710110504118](https://typora-lixuan.oss-cn-shanghai.aliyuncs.com/2022-07-10-11-05-04-73a45812bbff41079e5886b9aaba983a-image-20220710110504118-f5f5af.png)
+![image-20220710110504118](asset/2022-07-10-11-05-04-73a45812bbff41079e5886b9aaba983a-image-20220710110504118-f5f5af.png)
 
 ## IDE
 
@@ -211,7 +211,7 @@ func main(){   // 声明 main 主函数
 * 有符号整型：`int8`、`int16`、`int32`、`int64`、`int`
 * 无符号整型：`uint8`、`uint16`、`uint32`、`uint64`、`uint`
 
-![11011651636282_.pic](https://tva1.sinaimg.cn/large/e6c9d24ely1h1w8do4sznj20td0cugn5.jpg)
+![11011651636282_.pic](asset/e6c9d24ely1h1w8do4sznj20td0cugn5.jpg)
 
 > * 除非对整型的大小有特定的需求，否则你通常应该使用`int`表示整型宽度，在32位系统下是32位，在64位系统下是64位
 > * 对于 `int8` ， `int16` 等这些类型后面有一个数值的类型来说，它们能表示的数值个数是固定的。所以，在有的时候：例如在二进制传输、读写文件的结构描述(为了保持文件的结构不会受到不同编译目标平台字节长度的影响)等情况下，使用更加精确的 `int32` 和 `int64` 是更好的。

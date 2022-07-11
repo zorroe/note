@@ -6,3 +6,4 @@
 * [基本数据类型](/Golang/Primitive-data-types.md)
 * [容器类型](/Golang/Container-type.md)
 * [指针](/Golang/Pointer.md)
+* [结构体](/Golang/Structs.md)

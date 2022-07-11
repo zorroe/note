@@ -8,6 +8,8 @@
   <meta name="description" content="记录学习笔记">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet"
+    href="https://cdn-doocs.oss-cn-shenzhen.aliyuncs.com/npm/docsify-darklight-theme@latest/dist/style.min.css">
 </head>
 
 <body>
@@ -31,6 +33,25 @@
         paths: 'auto',
         depth: 4,
       },
+
+      themeColor: "#42b983", // this is the default 'vue' color
+
+      darklightTheme: {
+        defaultTheme: 'light',
+        siteFont: 'Source Sans Pro,Helvetica Neue,Arial,sans-serif',
+        codeFontFamily: 'Roboto Mono, Monaco, courier, monospace',
+        bodyFontSize: '15px',
+        dark: {
+          background: 'rgb(28,32,34)',
+          highlightColor: '#e96900',
+          codeBackgroundColor: 'rgb(34,39,46)',
+          codeTextColor: '#b4b4b4',
+        },
+        light: {
+          highlightColor: '#e96900',
+        }
+      },
+
     }
   </script>
   <!-- Docsify v4 -->
@@ -48,7 +69,12 @@
   <!-- 搜索框插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 
+  <!-- 目录缩小 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+  <script
+    src="https://cdn-doocs.oss-cn-shenzhen.aliyuncs.com/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
+
 </body>
 
 </html>

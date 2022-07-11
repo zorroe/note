@@ -9,6 +9,7 @@
     * [指针](/Golang/basic/Pointer.md)
     * [结构体](/Golang/basic/Structs.md)
     * [函数](/Golang/basic/Func.md)
+    * [包](/Golang/basic/Package.md)
   
 * Golang网络编程
 

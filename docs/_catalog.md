@@ -8,6 +8,7 @@
     * [容器类型](/Golang/basic/Container-type.md)
     * [指针](/Golang/basic/Pointer.md)
     * [结构体](/Golang/basic/Structs.md)
+    * [函数](/Golang/basic/Func.md)
   
 * Golang网络编程
 

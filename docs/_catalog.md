@@ -15,6 +15,7 @@
     * [错误和异常](/Golang/basic/Errors-and-exceptions.md)
     * [Select](/Golang/basic/Select.md)
     * [线程同步](/Golang/basic/Thread-sync.md)
+    * [new和make](/Golang/basic/new-make.md)
   * Golang网络编程
   
   * Golang数据操作

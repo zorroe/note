@@ -15,8 +15,8 @@ func main() {
 该程序的运行结果：
 
 ```go
-学习Java
-bookFunc的类型是 func() 
+// 学习Java
+// bookFunc的类型是 func() 
 ```
 
 ## 将函数作为参数

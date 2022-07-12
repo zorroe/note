@@ -14,6 +14,7 @@
     * [通道](/Golang/basic/Channel.md)
     * [错误和异常](/Golang/basic/Errors-and-exceptions.md)
     * [Select](/Golang/basic/Select.md)
+    * [线程同步](/Golang/basic/Thread-sync.md)
   * Golang网络编程
   
   * Golang数据操作

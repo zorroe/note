@@ -16,6 +16,7 @@
     * [Select](/Golang/basic/Select.md)
     * [线程同步](/Golang/basic/Thread-sync.md)
     * [new和make](/Golang/basic/new-make.md)
+    * [一等公民](/Golang/basic/First-class-function.md)
   * Golang网络编程
   
   * Golang数据操作

@@ -17,5 +17,43 @@ functionName(parameterList)
 go functionName(parameterList)
 ```
 
+下面是举例：
 
+```go
+func PrintInfo() {
+   fmt.Println("学习Go语言")
+}
+
+func main() {
+   // 开启一个协程执行 PrintInfo 函数
+   go PrintInfo()
+   // 使主协程休眠 1 秒
+   time.Sleep(1 * time.Second)
+   // 打印 main
+   fmt.Println("main")
+}
+```
+
+主函数运行子啊一个特殊的协程之上，这个协程称之为**主协程**
+
+## 启动多个协程
+
+```go
+func PrintNum(num int) {
+   for i := 0; i < 3; i++ {
+      fmt.Println(num)
+      // 避免观察不到并发效果 加个休眠
+      time.Sleep(100 * time.Millisecond)
+   }
+}
+
+func main() {
+   // 开启 1 号协程
+   go PrintNum(1)
+   // 开启 2 号协程
+   go PrintNum(2)
+   // 使主协程休眠 1 秒
+   time.Sleep(time.Second)
+}
+```
 

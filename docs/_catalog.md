@@ -21,7 +21,8 @@
     * [接口](/Golang/basic/Interface.md)
   * Golang网络编程
   
-  * Golang数据操作
+  * [Golang数据操作](/Golang/database/database.md)
+    * [go操作mysql](/Golang/database/mysql.md)
   * [beego框架](/Golang/beego/beego.md)
     * [安装与启动](/Golang/beego/InstallAndSetup.md)
   * gin框架

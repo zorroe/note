@@ -23,6 +23,7 @@
   
   * [Golang数据操作](/Golang/database/database.md)
     * [go操作mysql](/Golang/database/mysql.md)
+    * [go操作redis](/Golang/database/redis.md)
   * [beego框架](/Golang/beego/beego.md)
     * [安装与启动](/Golang/beego/InstallAndSetup.md)
   * gin框架

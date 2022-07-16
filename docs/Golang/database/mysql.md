@@ -2,7 +2,7 @@
 
 新建`test`数据库，`person`、`place`表
 
-```mysql
+```sql
 CREATE TABLE `person` (
     `user_id` int(11) NOT NULL AUTO_INCREMENT,
     `username` varchar(260) DEFAULT NULL,
